@@ -11,15 +11,15 @@ Unauthorized copying, modification, distribution, use, or reverse engineering is
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/python-3.11+-blue.svg" alt="Python 3.11+"/></a>
   <a href="#"><img src="https://img.shields.io/badge/HL7-v2.x-green.svg" alt="HL7 v2.x"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/IEC_62304-compliant-orange.svg" alt="IEC 62304"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/license-MIT-lightgrey.svg" alt="License: MIT"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/IEC_62304-inspired-orange.svg" alt="IEC 62304 inspired"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/license-proprietary-lightgrey.svg" alt="License: proprietary"/></a>
   <a href="#"><img src="https://img.shields.io/badge/docker-ready-2496ED.svg" alt="Docker"/></a>
   <a href="#"><img src="https://img.shields.io/badge/CVE_Tracking-enabled-red.svg" alt="CVE Tracking"/></a>
 </p>
 
 ---
 
-**MAESTRIA-Lite** is an open-source, production-grade middleware designed for **in-vitro diagnostic (IVD) environments**. It acts as the integration backbone between laboratory instruments, Laboratory Information Systems (LIS), and hospital networks — handling message routing, protocol translation, interface contract validation, cybersecurity compliance, and patch lifecycle management.
+**MAESTRIA-Lite** is a source-available reference middleware designed for **in-vitro diagnostic (IVD) environments**. It acts as the integration backbone between laboratory instruments, Laboratory Information Systems (LIS), and hospital networks — handling message routing, protocol translation, interface contract validation, cybersecurity compliance, and patch lifecycle management.
 
 Built with regulatory frameworks in mind (**IEC 62304**, **FDA 21 CFR Part 11**, **ISO 27001**), this project demonstrates the architecture patterns and operational rigor expected in a real-world IVD middleware.
 
@@ -242,13 +242,15 @@ maestria:
 
 ## 📋 Regulatory Compliance
 
-| Standard | Coverage | Status |
+> This is a demonstration project. It has not been audited or certified against any of the standards below; the table maps each standard to the patterns the code illustrates.
+
+| Standard | Coverage | What the code illustrates |
 |----------|----------|--------|
-| IEC 62304 | Software lifecycle | ✅ Implemented |
-| FDA 21 CFR Part 11 | Electronic records | ✅ Audit trail |
-| ISO 27001 | Information security | ✅ Controls mapped |
-| IEC 62443 | Industrial cybersecurity | ✅ Compliance engine |
-| HIPAA | Patient data protection | ✅ Encryption & access |
+| IEC 62304 | Software lifecycle | lifecycle and traceability patterns |
+| FDA 21 CFR Part 11 | Electronic records | signed audit trail |
+| ISO 27001 | Information security | controls mapping |
+| IEC 62443 | Industrial cybersecurity | compliance checks |
+| HIPAA | Patient data protection | encryption and access control |
 
 ---
 
@@ -258,7 +260,7 @@ Please read [CONTRIBUTING.md](docs/CONTRIBUTING.md) for details on our code of c
 
 ## 📄 License
 
-This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
+The source is published for reading and evaluation. It is proprietary (all rights reserved) — see [LICENSE](LICENSE). For any other use, contact Doctum Consilium.
 
 ---
 
